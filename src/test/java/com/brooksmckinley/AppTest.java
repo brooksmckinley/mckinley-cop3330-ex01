@@ -1,8 +1,8 @@
 package com.brooksmckinley;
 
-import static org.junit.Assert.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
 
 /**
  * Unit test for simple App.
@@ -10,11 +10,11 @@ import org.junit.Test;
 public class AppTest 
 {
     /**
-     * Rigorous Test :-)
+     * Test test, makes sure the tests work.
      */
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+        Assertions.assertTrue(true);
     }
 }
